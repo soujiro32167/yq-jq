@@ -3,4 +3,4 @@ version: '3'
 services:
   sut:
     build: .
-    command: yq --version && jq --version
+    command: sh -c 'yq --version && jq --version'
