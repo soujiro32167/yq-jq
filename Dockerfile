@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:3
 WORKDIR /workdir
 RUN echo https://dl-cdn.alpinelinux.org/alpine/edge/community >> /etc/apk/repositories
 RUN apk update && apk add --no-cache yq jq
